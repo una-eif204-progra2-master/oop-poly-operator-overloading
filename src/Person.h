@@ -17,6 +17,11 @@ class Person {
 private:
     string text;
 public:
+    const string &getText() const;
+
+    void setText(const string &text);
+
+public:
     /**
      * Basic Constructor
      */

@@ -23,3 +23,11 @@ void Person::operator+(Person person) {
 Person::~Person() {
 
 }
+
+const string &Person::getText() const {
+    return text;
+}
+
+void Person::setText(const string &text) {
+    Person::text = text;
+}
